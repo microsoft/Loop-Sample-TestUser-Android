@@ -1,6 +1,6 @@
 # Loop-Sample-TestUser-Android
 
-Note: the sample apps require Android Studio xx to build and run
+These instructions will get you a copy of a Loop sample app for pulling user profiles up and running for development and testing purposes.
 
 1. If you haven’t already, signup for a loop accountit takes seconds - https://developer.dev.loop.ms/ 
 2. Create test users by clicking on the Users tab on the left. We will populate test users with sample trips and home/work profile (fyi - the walkthrough will just include test signals). 
