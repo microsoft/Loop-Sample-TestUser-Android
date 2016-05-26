@@ -2,7 +2,7 @@
 
 These instructions will get you a copy of a Loop sample app for pulling user profiles up and running for development and testing purposes.
 
-  0. If you haven’t already, signup for a loop account and create an app on the Loop developer portal. It takes seconds - `https://developer.dev.loop.ms`
+  0. If you haven’t already, signup for a loop account and create an app on the Loop developer portal. It takes seconds - [Loop Developer Portal](https://developer.dev.loop.ms)
   0. Get the sample app
     0. Clone this sample app `git clone https://github.com/Microsoft/Loop-Sample-TestUser-Android.git`
     0. Open it in Android Studio
