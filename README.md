@@ -1,4 +1,4 @@
-# Loop-Sample-TestUser-Android
+# Loop Android Sample - Setting up test users
 
 These instructions will get you a copy of a Loop sample app for pulling user profiles up and running for development and testing purposes.
 
