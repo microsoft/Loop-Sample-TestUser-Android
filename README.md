@@ -12,7 +12,7 @@ These instructions will get you a copy of a Loop sample app for pulling user pro
         String appToken = "YOUR_APP_TOKEN";
     ```
   0. Create test users in your user dashboard (user link in the left navigation)
-  0. Replace the `your_test_userid` with your test user id in `LoopTestUserApplication.java OnCreate`
+  0. Replace the userId and deviceId with your test user id and device id in `LoopTestUserApplication.java OnCreate`
 
     ```
         LoopSDK.userId = "YOUR_USER_ID";
