@@ -7,6 +7,7 @@ These instructions will get you a copy of a Loop sample app for pulling user pro
     0. Clone this sample app `git clone https://github.com/Microsoft/Loop-Sample-TestUser-Android.git`
     0. Open it in Android Studio
     0. Add your appId and appToken in `LoopTestUserApplication.java OnCreate`
+
     ```
         String appId = "YOUR_APP_ID";
         String appToken = "YOUR_APP_TOKEN";
