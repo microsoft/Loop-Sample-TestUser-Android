@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity implements SharedPreferences
                                 public void run(){
                                     checkboxImageView.setVisibility(View.VISIBLE);
 
-                                    userIdView.setText("Current User Id\n" + LoopSDK.userId);
+                                    userIdView.setText("Current User Id\n" + LoopSDK.userId + "\n\nTest Count");
                                     userIdView.setVisibility(View.VISIBLE);
                                     profileCountView.setText(String.format("%.0f", score));
                                     profileCountView.setVisibility(View.VISIBLE);
@@ -83,7 +83,19 @@ public class MainActivity extends AppCompatActivity implements SharedPreferences
                         public void onProfileDownloadFailed(LoopError error) {
                             Log.d(TAG, error.toString());
 
-                            final String errorMessage = error.toString();
+                            String errorStart = "Download test profile error";
+                            String errorEnd = "";
+
+                            if (error.getClass() == LoopHttpError.class) {
+                                LoopHttpError httpError = (LoopHttpError) error;
+                                errorEnd = "\nStatus code: " + httpError.status + "\nReason: " + httpError.reason;
+                                Log.d(TAG, errorStart + errorEnd);
+                            }
+                            else {
+                                Log.d(TAG, errorStart);
+                            }
+
+                            final String errorMessage = errorStart + errorEnd;
 
                             runOnUiThread(new Runnable() {
                                 @Override
