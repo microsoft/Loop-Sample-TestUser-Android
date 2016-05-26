@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Get test profile"
+        android:layout_centerHorizontal="true"
+        android:background="#208DED"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/getTestProfileButton" />
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/checkBoxView"
+        android:src="@drawable/check"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/errorView"
+        android:src="@drawable/error"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current User Id:"
+        android:layout_marginTop="20dp"
+        android:textColor="#FF000000"
+        android:textSize="20sp"
+        android:id="@+id/userIdView"
+        android:textAlignment="center"
+        android:visibility="invisible"
+        android:layout_below="@+id/checkBoxView"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FF000000"
+        android:textSize="60sp"
+        android:id="@+id/profileCountView"
+        android:textAlignment="center"
+        android:visibility="visible"
+        android:layout_below="@+id/userIdView"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
