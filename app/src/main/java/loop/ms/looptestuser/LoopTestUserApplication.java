@@ -23,10 +23,10 @@ public class LoopTestUserApplication extends Application implements ILoopSDKCall
         editor.apply();
 
         // initialize the Loop SDK. create an account to get your appId and appToken
-        String appId = "test-project-2-dev-fd24bef4";
-        String appToken = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6InRlc3QtcHJvamVjdC0yLWRldi1mZDI0YmVmNCIsImFwcEtleSI6IjE2YzA2MTk3OTU5Mi00ODNjLWJmOWMtZmY5NDJiNWRmYTEyIiwiYWxsb3dlZFJvdXRlcyI6W3sibWV0aG9kIjoicG9zdCIsInBhdGgiOiIvdjIuMC9hcHAvdGVzdC1wcm9qZWN0LTItZGV2LWZkMjRiZWY0L3VzZXIifSx7Im1ldGhvZCI6ImRlbGV0ZSIsInBhdGgiOiIvdjIuMC9hcHAvdGVzdC1wcm9qZWN0LTItZGV2LWZkMjRiZWY0L3VzZXIifSx7Im1ldGhvZCI6InBvc3QiLCJwYXRoIjoiL3YyLjAvYXBwL3Rlc3QtcHJvamVjdC0yLWRldi1mZDI0YmVmNC9sb2dpbiJ9LHsibWV0aG9kIjoiZ2V0IiwicGF0aCI6Ii92Mi4wL2FwcC90ZXN0LXByb2plY3QtMi1kZXYtZmQyNGJlZjQvdXNlciJ9XSwiaWF0IjoxNDY0MzAyMzk3LCJpc3MiOiJMb29wIEF1dGggdjIiLCJzdWIiOiJ0ZXN0LXByb2plY3QtMi1kZXYtZmQyNGJlZjQifQ.nW61elgXldZ0-7dt0EIuwMW5O7D5afjg0IHwL_bCRQ4";
-        LoopSDK.userId = "82fda612-cbbc-474f-bf1d-700ecf93623a";
-        LoopSDK.deviceId = "c2250c6d-2366-46b9-8180-d2e8a616ea9d";
+        String appId = "YOUR_APP_ID";
+        String appToken = "YOUR_APP_TOKEN";
+        LoopSDK.userId = "YOUR_USER_ID";
+        LoopSDK.deviceId = "YOUR_DEVICE_ID";
 
         LoopSDK.initialize(this, appId, appToken);
     }
