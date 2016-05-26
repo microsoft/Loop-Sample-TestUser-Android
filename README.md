@@ -19,6 +19,6 @@ These instructions will get you a copy of a Loop sample app for pulling user pro
         LoopSDK.userId = "YOUR_USER_ID";
         LoopSDK.deviceId = "YOUR_DEVICE_ID";
     ```
-  0. Run the app. 
+  0. Build and run the app
 
-After this is done, you can create test profiles from the dashboard and see them updated in your app. This is the test version of what Loop does when it creates home & work profiles and updates your app.
+After this is done, you can create test profiles from the dashboard and see them updated in your app. This is the same mechanism using test signals of what Loop does when it creates home & work profiles and updates your app.
