@@ -14,7 +14,8 @@ These instructions will get you a copy of a Loop sample app for pulling user pro
   0. Create test users in your user dashboard (user link in the left navigation)
   0. Replace the `your_test_userid` with your test user id in `LoopTestUserApplication.java OnCreate`
     ```
-        code example here;
+        LoopSDK.userId = "YOUR_USER_ID";
+        LoopSDK.deviceId = "YOUR_DEVICE_ID";
     ```
   0. Run the app. 
 
