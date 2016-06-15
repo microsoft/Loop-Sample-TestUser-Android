@@ -48,6 +48,11 @@ public class LoopTestUserApplication extends Application implements ILoopSDKCall
         Log.d("loop_sdk", "Provider: " + provider + " status: " + status);
     }
 
+    @Override
+    public void onDebug(String output) {
+
+    }
+
     // called by the Loop SDK when initialization fails
     @Override
     public void onInitializeFailed(LoopError loopError) {
