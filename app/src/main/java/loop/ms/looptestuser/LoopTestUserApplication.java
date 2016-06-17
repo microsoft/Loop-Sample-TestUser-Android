@@ -25,10 +25,10 @@ public class LoopTestUserApplication extends Application implements ILoopSDKCall
         // initialize the Loop SDK. create an account to get your appId and appToken
         String appId = "YOUR_APP_ID";
         String appToken = "YOUR_APP_TOKEN";
-        LoopSDK.userId = "YOUR_USER_ID";
-        LoopSDK.deviceId = "YOUR_DEVICE_ID";
+        String userId = "YOUR_USER_ID";
+        String deviceId = "YOUR_DEVICE_ID";
 
-        LoopSDK.initialize(this, appId, appToken);
+        LoopSDK.initialize(this, appId, appToken, userId, deviceId);
     }
 
     // called by the Loop SDK on successful initialization
