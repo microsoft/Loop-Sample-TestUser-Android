@@ -1,8 +1,8 @@
 # Loop Android Sample - Setting up test users
 
-These instructions will get you a copy of a Loop sample app for pulling user profiles up and running for development and testing purposes.
+These instructions will get you a copy of a Loop sample app for pulling user profiles for development and testing purposes.
 
-  0. If you haven’t already, signup for a loop account and create an app on the Loop developer portal. It takes seconds - [Loop Developer Portal](https://developer.dev.loop.ms)
+  0. If you haven’t already, signup for a loop account and create an app on the [Loop Developer Portal](https://developer.dev.loop.ms)
   0. Get the sample app
     0. Clone this sample app `git clone https://github.com/Microsoft/Loop-Sample-TestUser-Android.git`
     0. Open it in Android Studio
@@ -16,8 +16,8 @@ These instructions will get you a copy of a Loop sample app for pulling user pro
   0. Replace the userId and deviceId with your test user id and device id in `LoopTestUserApplication.java OnCreate`
 
     ```
-        LoopSDK.userId = "YOUR_USER_ID";
-        LoopSDK.deviceId = "YOUR_DEVICE_ID";
+        String userId = "YOUR_USER_ID";
+        String deviceId = "YOUR_DEVICE_ID";
     ```
   0. Build and run the app
 
