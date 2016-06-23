@@ -8,7 +8,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="Get test profile"
+        android:text="@string/get_test_profile"
         android:layout_centerHorizontal="true"
         android:background="#208DED"
         android:textColor="#fff"
@@ -42,7 +42,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Current User Id:"
+        android:text="@string/current_user_id"
         android:layout_marginTop="20dp"
         android:textColor="#FF000000"
         android:textSize="20sp"

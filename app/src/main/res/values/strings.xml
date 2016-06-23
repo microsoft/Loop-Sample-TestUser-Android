@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Loop Test User</string>
+    <string name="get_test_profile">Get test profile</string>
+    <string name="current_user_id">Current User Id:</string>
 </resources>
