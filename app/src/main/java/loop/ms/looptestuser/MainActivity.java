@@ -11,6 +11,8 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import java.util.Locale;
+
 import ms.loop.loopsdk.api.LoopHttpError;
 import ms.loop.loopsdk.core.ILoopServiceCallback;
 import ms.loop.loopsdk.core.LoopSDK;
@@ -71,9 +73,9 @@ public class MainActivity extends AppCompatActivity implements SharedPreferences
                                 public void run(){
                                     checkboxImageView.setVisibility(View.VISIBLE);
 
-                                    userIdView.setText("Current User Id\n" + LoopSDK.userId + "\n\nTest Count");
+                                    userIdView.setText(String.format(Locale.US, "Current User Id\n%s\n\nTest Count", LoopSDK.userId));
                                     userIdView.setVisibility(View.VISIBLE);
-                                    profileCountView.setText(String.format("%.0f", score));
+                                    profileCountView.setText(String.format(Locale.US, "%.0f", score));
                                     profileCountView.setVisibility(View.VISIBLE);
                                 }
                             });
